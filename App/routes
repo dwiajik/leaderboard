@@ -1,0 +1,20 @@
+GET / InstanceController@index
+GET /instance/new InstanceController@edit
+POST /instance/new InstanceController@upsert
+GET /instance/edit InstanceController@edit
+POST /instance/edit InstanceController@upsert
+GET /instance InstanceController@show
+GET /score ScoreController@index
+
+POST /api/v1/get ScoreAPIController@get
+POST /api/v1/getById ScoreAPIController@getById
+POST /api/v1/upsert ScoreAPIController@upsert
+POST /api/v1/delete ScoreAPIController@delete
+
+GET /login AuthController@getLogin
+POST /login AuthController@postLogin
+GET /register AuthController@getRegister
+POST /register AuthController@postRegister
+GET /logout AuthController@getLogout
+
+GET /blabla ControllerDirectory\ControllerName@method

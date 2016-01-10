@@ -1,0 +1,6 @@
+CREATE TABLE scores (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    instance_id VARCHAR(25) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    score DOUBLE NOT NULL
+);

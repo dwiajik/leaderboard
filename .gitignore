@@ -1,0 +1,8 @@
+config
+.idea/
+App/Logs/*
+App/Vendor
+App/Resources/assets/bower
+public/uploads/*
+vendor/
+node_modules/

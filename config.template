@@ -1,0 +1,9 @@
+ENV=dev
+HOST=
+
+PUBLIC_DIR=public
+
+DB_HOST=localhost
+DB_NAME=suket
+DB_USERNAME=root
+DB_PASSWORD=
